@@ -1,0 +1,31 @@
+.social_container{
+  display: flex;
+}
+.social_child{
+  width: 100%;
+}
+
+.sidebar{
+  min-height: 100vh;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  div{
+    flex-shrink: 0;
+  }
+}
+
+.loading-part{
+  height: 50vh;
+  align-items: center;
+  /* border: 1px solid red; */
+
+  div{
+    /* border: 1px solid red; */
+    margin-left: 4px;
+  }
+}
