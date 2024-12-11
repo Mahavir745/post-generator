@@ -8,7 +8,7 @@ const PostList = () => {
   const {postlist,fetching} = useContext(PostListContent)
 
   return (
-    <div className='card-container'>
+    <div className='card-container w-auto'>
     {fetching && <Loading/>}
     {!fetching && postlist.length === 0 && <WelcomeMessage/>}
     {!fetching && postlist.map( post => <Post post={post} key={post.id}></Post>)}

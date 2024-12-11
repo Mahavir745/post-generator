@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <div className='bg-black d-flex h-75 align-items-center justify-content-evenly'>
+    <div className='bg-black d-flex w-auto h-75 align-items-center justify-content-evenly'>
       <div className='p-2'>
         <h1 className='text-warning'>Post Generator</h1>
         <p className='text-white mt-2'>Managed by Mveer745</p>
