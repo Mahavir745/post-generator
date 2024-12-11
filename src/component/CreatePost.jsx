@@ -35,7 +35,7 @@ const CreatePost = () => {
   }
 
   return (
-    <form style={{width: "80%", margin: 40}} className='bg-secondary-subtle rounded p-3' onSubmit={onSubmitBtn}>
+    <form style={{width: "80%", margin: 40}} className='bg-secondary-subtle rounded p-3 m-auto mt-5' onSubmit={onSubmitBtn}>
     <div className="mb-3">
       <label htmlFor="userId" className="form-label">User Id: </label>
       <input type="text" className="form-control" id="userId" placeholder='enter your id:' ref={userIdElement}/>

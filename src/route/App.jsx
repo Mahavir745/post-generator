@@ -11,16 +11,14 @@ const App = () => {
 
   const [selectedTab, setSelectedTab] = useState("Home")
 
+
   return (
     <PostListProvider>
-    <div className='social_container'>
-      <Sidebar selectedTab={selectedTab} setSelectedTab={setSelectedTab}></Sidebar>
       <div className="social_child">
       <Header></Header>
       <Outlet />
       <Footer></Footer>
       </div>
-    </div>
     </PostListProvider>
   )
 }
